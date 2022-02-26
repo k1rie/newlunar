@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
   height: 100vh;
-  overflow-x: hidden;
+  width: 100vw;
 }
 
 .nav {
@@ -108,7 +108,6 @@ body {
   font-family: "Rubik Mono One", sans-serif;
   color: #ffffff;
   font-size: 1.1rem;
-  text-decoration: none;
 }
 
 .part3__link1 {
@@ -445,11 +444,11 @@ body {
 }
 
 .navmobil{
+    display: none;
     justify-self: end;
     align-self: start;
     grid-column: 1/2;
     grid-row: 1/3;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -457,7 +456,6 @@ body {
     width: 200px;
     height: 500px;
     z-index: 100;
-    transform: translateX(100%);
     transition: 0.5s all;
     z-index: 500;
     box-shadow: 2px 0px 10px black;

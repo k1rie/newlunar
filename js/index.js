@@ -18,10 +18,10 @@ download.addEventListener("mouseout", () => {
 
 menu.addEventListener("click",()=>{
 if(menucheck === false){
-    navmobil.style.transform = "translateX(0)"
+    navmobil.style.display = "flex"
     menucheck = true
 }else{
-    navmobil.style.transform = "translateX(100%)"
+    navmobil.style.display = "none"
     menucheck = false
 }
 })
