@@ -9,6 +9,7 @@ body {
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -200,7 +201,6 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   height: 77%;
-  overflow-x: hidden;
 }
 
 .download__container {
