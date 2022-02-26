@@ -216,6 +216,10 @@ body {
   animation-name: initdownload;
 }
 
+.download__img:hover{
+    box-shadow: 2px 4px 10px black;
+}
+
 @keyframes initdownload{
     from{
         transform: translateY(200px);
@@ -226,11 +230,12 @@ body {
 }
 
 .download__img {
+    transition: 0.5s all;
   grid-column: 1/2;
   grid-row: 1/2;
   width: 200px;
   height: 80px;
-  filter: blur(3px);
+  filter: blur(2px);
   border-radius: 20px;
 }
 
@@ -250,6 +255,7 @@ body {
 
   color: #ffffff;
 }
+
 
 .main__back {
   grid-column: 1/2;
